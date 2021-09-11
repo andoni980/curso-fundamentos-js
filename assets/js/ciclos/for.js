@@ -16,3 +16,11 @@ console.warn( 'For of' );
 for ( let heroe of heroes ) {
     console.log( heroe );
 }
+
+console.warn( 'Foreach' );
+
+// heroes.forEach( ( heroe ) => {
+//     console.log( heroe );
+// } );
+
+heroes.forEach( ( heroe ) => console.log( heroe ) ); // El forEach no admite break ni continue
